@@ -1,0 +1,20 @@
+.image { 
+  /*background: url(images/Aswini.jpg) no-repeat center center fixed; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    color: black;
+    transform: translate(-50%, -50%);
+  }
